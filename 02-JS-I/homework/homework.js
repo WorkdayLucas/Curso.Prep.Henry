@@ -212,6 +212,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
   let nuevaCadena = "Hola " + nombre + "!";
+  return nuevaCadena;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -255,12 +256,12 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra.length == 1){
     if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u" || letra == "A" || letra == "E" || letra == "I" || letra == "O" || letra == "U"){
-      alert("Es vocal");
+      console.log("Es vocal");
     } else {
-      alert("Dato incorrecto");
+      console.log("Dato incorrecto");
     } 
   } else {
-    alert("Dato incorrecto");
+    console.log("Dato incorrecto");
   }
 }
 
