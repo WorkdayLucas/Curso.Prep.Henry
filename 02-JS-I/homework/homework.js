@@ -157,7 +157,7 @@ function elevar(num, exponent) {
   let potencia = Math.pow(num,exponent); 
 	return potencia;
 }
-}
+
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
@@ -256,12 +256,12 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra.length == 1){
     if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u" || letra == "A" || letra == "E" || letra == "I" || letra == "O" || letra == "U"){
-      console.log("Es vocal");
+      return "Es vocal";
     } else {
-      console.log("Dato incorrecto");
+      return "Dato incorrecto";
     } 
   } else {
-    console.log("Dato incorrecto");
+    return "Dato incorrecto";
   }
 }
 
